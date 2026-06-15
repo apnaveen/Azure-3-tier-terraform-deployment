@@ -114,6 +114,7 @@ module "database" {
   multi_az                   = false
   vnet_id                    = module.network.vnet_id
   private_endpoint_subnet_id = module.network.private_app_subnets[0]
+  require_secure_transport = "OFF"
 
   # Public MySQL access. Replace this wide-open rule with your trusted IP/CIDR for production.
   public_firewall_rules = {
