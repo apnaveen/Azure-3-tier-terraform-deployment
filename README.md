@@ -34,7 +34,7 @@ git clone https://github.com/CloudTechDevOps/2nd10WeeksofCloudOps-main.git
 
 cd 2nd10WeeksofCloudOps-main/backend
 ```
-- chnage the .env values like database
+### chnage the datbase details on ```.env file ``` 
 
 - run the test.sql
 ```
@@ -75,7 +75,7 @@ cd 2nd10WeeksofCloudOps-main/client
 - copy nginx file to conf.d path
 ```
 sudo rm /etc/nginx/sites-enabled/default
-cp nginx.conf /etc/nginx/conf.d/
+sudo cp nginx.conf /etc/nginx/conf.d/
 ```
 - Run the npm comands on frontend 
 
