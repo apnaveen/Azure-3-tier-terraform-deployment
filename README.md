@@ -1,8 +1,8 @@
 # Azure Three-Tier Deployment — Terraform
-# we are deployimg this application on plura sight so we are used data bloks 
+### we are deploying this application on plura sight so we are used data bloks 
 - change the subscription and resource group details on ```env/dev/terraform.tfvars``
 
-# Apply the  network, frontend-vm, backend-vm, bastionhost, database, backend-lb, frontend-lb 
+### Apply the  network, frontend-vm, backend-vm, bastionhost, database, backend-lb, frontend-lb 
 
 ```
 terraform apply -target="module.network"
