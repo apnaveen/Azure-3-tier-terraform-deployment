@@ -25,10 +25,6 @@ terraform apply -target="module.frontend_lb"
 ```
 
 
-### open the datbase on portal
-- switch to settings , click on sever  parameters 
-- search and Turn off this require_secure_transport   and save it 
-
 # Backend 
 
 - connect to backend server using bastion host procress
