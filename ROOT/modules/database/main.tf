@@ -27,7 +27,12 @@ resource "azurerm_mysql_flexible_server" "main" {
     Name = "${var.project_name}-mysql"
   }
 }
-
+resource "azurerm_mysql_flexible_server_configuration" "require_secure_transport" {
+  name                = "require_secure_transport"
+  resource_group_name = var.resource_group_name
+  server_name         = azurerm_mysql_flexible_server.main.name
+  value               = var.require_secure_transport
+}
 resource "azurerm_mysql_flexible_database" "main" {
   name                = var.db_name
   resource_group_name = var.resource_group_name
