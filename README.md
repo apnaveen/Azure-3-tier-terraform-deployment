@@ -1,6 +1,6 @@
 # Azure Three-Tier Deployment — Terraform
 ### we are deploying this application on plura sight so we are used data bloks 
-- change the subscription and resource group details on ```env/dev/terraform.tfvars``
+- change the subscription and resource group details on ```env/dev/terraform.tfvars```
 
 ### AZure login 
 
