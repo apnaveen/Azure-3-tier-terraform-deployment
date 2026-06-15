@@ -75,7 +75,7 @@ git clone https://github.com/CloudTechDevOps/2nd10WeeksofCloudOps-main.git
 cd 2nd10WeeksofCloudOps-main/client
 ```
 
-- change the backend loadbalncer ip on ```nginx.conf```
+### change the backend loadbalncer ip on ```nginx.conf```
 - copy nginx file to conf.d path
 ```
 sudo rm /etc/nginx/sites-enabled/default
