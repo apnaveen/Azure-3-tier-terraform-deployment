@@ -2,8 +2,12 @@
 ### we are deploying this application on plura sight so we are used data bloks 
 - change the subscription and resource group details on ```env/dev/terraform.tfvars``
 
-### Apply the  network, frontend-vm, backend-vm, bastionhost, database, backend-lb, frontend-lb 
+### AZure login 
 
+```
+az login --use-device-code
+````
+### Apply the  network, frontend-vm, backend-vm, bastionhost, database, backend-lb, frontend-lb 
 ```
 terraform apply -target="module.network"
 
