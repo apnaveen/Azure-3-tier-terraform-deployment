@@ -78,3 +78,7 @@ variable "public_firewall_rules" {
   }))
   default = {}
 }
+variable "require_secure_transport" {
+  type    = string
+  default = "ON"
+}
